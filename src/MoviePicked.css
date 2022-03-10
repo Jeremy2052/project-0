@@ -1,0 +1,31 @@
+.moviePicked {
+  margin-top: 60px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.movie__poster {
+  display: flex;
+}
+
+.movie__poster > img {
+  width: 100%;
+  height: 60vh;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+
+.movie__description {
+  margin-top: -150px;
+  padding: 10px;
+}
+
+.movie__description > h5 {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}

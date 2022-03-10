@@ -1,0 +1,54 @@
+.messages {
+  padding: 10px;
+}
+
+.messages > img {
+  height: 300px;
+  width: 300px;
+}
+
+.messages__header {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.messages__left {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.messages__left > .MuiAvatar-root {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.messages__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.messages__right > span {
+  font-size: 12px;
+}
+
+.messages_message {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 380px) {
+  .messages__left {
+    flex-direction: column;
+    font-size: 10px;
+  }
+
+  .messages__right > span {
+    font-size: 10px;
+  }
+}

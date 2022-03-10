@@ -1,0 +1,12 @@
+.calendarContainer{
+  margin-top: 60px;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  /* height: 100vh; */
+  width: 100vw;
+  /* background-color: bisque; */
+}
